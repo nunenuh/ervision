@@ -1,0 +1,23 @@
+[project]
+name = "ervision"
+version = "0.0.1"
+authors = [
+  { name="Lalu Erfandi Maula Yusnu", email="nunenuh@gmail.com" },
+]
+description = "Computer Vision library tools and helper"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nunenuh/ervision"
+"Bug Tracker" = "https://github.com/nunenuh/ervision/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
